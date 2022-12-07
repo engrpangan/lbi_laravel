@@ -1,0 +1,296 @@
+/* Monteserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Montserrat', sans-serif!important; */
+    font-family: 'Poppins', sans-serif!important;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* Carousel */
+.header_carousel {
+    height: 100vh!important;
+    position: relative!important;
+}
+
+.carousel_text {
+    text-align: left!important;
+    top: 35%!important;
+}
+
+.carousel_ind {
+    top: 53%!important;
+    right: auto!important;
+    left: 15%;
+    bottom: auto!important;
+}
+
+.carousel_text h5 {
+    font-size: 3.5em;
+    font-weight: bolder;
+}
+
+.enroll_btn {
+    font-size: 1.5em!important;
+    font-weight: bolder!important;
+    box-shadow: none!important;
+}
+
+
+/* Mission and Vision */
+.mv_section {
+    color: #000;
+}
+
+.section_header h1, .slashed_header h1 {
+    font-size: 3em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 3em 0 1em;
+}
+
+.section_content {
+    padding: 2.5em 0;
+}
+
+.section_content h3 {
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.section_content p {
+    font-size: 1.3em;
+    padding: 0 3em;
+}
+
+
+/* Classes Section */
+.classes_sec {
+    background: url('/img/class/wwo.png');
+    background-size: cover;
+    display: relative;
+    height: 150vh;
+}
+
+.class_row {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 5em 22em 2em!important;
+}
+
+.class_row h3 {
+    font-weight: bolder;
+}
+
+.class_tabs a {
+    font-size: 12px;
+    font-weight: bolder!important;
+}
+
+.slashed_header {
+    padding: 1em 0;
+}
+
+.left_content, .right_content {
+    padding: 2em;
+}
+
+.left_content h3, .right_content h3 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.left_content p, .right_content p {
+    font-size: 1.3em;
+    padding: 0 5em 0 0!important;
+}
+
+
+/* Materials Section */
+.materials_sec {
+    height: 170vh;
+}
+
+
+/* Class Fee */
+.class_fee_sec {
+    background: url('/img/class_fee/class_fee_bg.png');
+    background-size: cover;
+    display: relative;
+    height: 130vh;
+    padding: 5em 0 0;
+}
+
+.pricing_cards {
+    background-color: #F6F6F6;
+    border-radius: 2em;
+    overflow: hidden;
+}
+
+.pricing_cards h4 {
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.pricing_cards h5 {
+    font-weight: bold;
+}
+
+.pricing_cards ul {
+    padding: 0 2em 0.5em;
+}
+
+.pricing_title {
+    padding: 1em 1em 0;
+    background-color: antiquewhite;
+}
+
+.class_features {
+    padding: 2em 3em;
+}
+
+.class_features p {
+    font-size: 16px;
+}
+
+.class_features ul {
+    text-align: center;
+}
+
+.enroll_btn {
+    text-align: center;
+}
+
+.enroll_btn a {
+    background: transparent;
+    box-shadow: none;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+}
+
+.enroll_btn a:hover {
+    color: #fff;
+    background: goldenrod;
+    border: none;
+    font-weight: bolder;
+}
+
+
+/* Bulletin Section */
+.bulletin_sec {
+    height: 120vh;
+    margin-top: -100px;
+}
+
+
+/* Teacher Profile */
+.teacher_profile {
+    background: url('/img/tp/tp.png');
+    background-size: cover;
+    display: relative;
+    height: 130vh;
+    padding: 10em 0 0;
+}
+
+.t_prof {
+    padding: 2em 2em 0;
+}
+
+.video_container {
+    padding: 2em 0 0;
+}
+
+
+
+/* Portal */
+.portal_page {
+    background: url('/img/portal/bg.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.login_sign-up .container {
+    height: 90vh;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+}
+
+.login_signup_container {
+    background: #FFFFF6;
+    height: 70vh;
+    width: 60vh;
+    padding: 3em 2em;
+    border-radius: 10px;
+}
+
+.login_signup_container a {
+    font-size: 16px!important;
+    font-weight: bolder!important;
+}
+
+.form_container {
+    padding: 2em 2em 0;
+}
+
+.form_container h3 {
+    font-weight: bolder;
+    padding: 0 0 1em;
+}
+
+.input_container {
+    padding: 0 0 2em;
+}
+
+.form-outline {
+    padding: 0.3em;
+    font-size: 18px;
+}
+
+.forgot_pass_btn {
+    color: #555555;
+}
+
+.forgot_pass_btn:hover {
+    text-decoration: underline;
+    color: crimson;
+}
+
+/* .invalid_cred {
+    color: crimson!important;
+} */
+
+.input_error {
+    font-size: 12px;
+    color: crimson;
+}
+
+
+/* Footer */
+.footer_sec {
+    background: url('/img/footer/footer.png');
+    background-size: cover!important;
+    margin-top: -200px;
+}
+
+.footer_sec footer {
+    padding-top: 10em;
+}
+
+.company_identity {
+    display: flex;
+}
